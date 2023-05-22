@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>HTML5 Sortable jQuery Plugin</title>
+	<link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+</head>
+<style>
+
+body .row .col .card {
+        background-color: #f1f5f9 !important;
+    }
+    .placeholder{
+        border:2px dashed #000;
+        opacity:0.3;
+    }
+    .Box{
+        min-height:100px !important;
+		background-color: aqua;
+    }
+
+</style>
+<body dir="rtl">
+
+	<div class="Dashboard d-flex flex-column gap-3">
+		<div class="Box d-flex" id="Box1">
+			<div class="d-flex flex-column item w-100 rounded-4" id="AnbarDivContainer">
+				<span class="DragIcon">
+					<i class="material-icons dp48">...</i>
+				</span>
+				<div id="AnbarDiv" class="bg-fff mr-0 col m12">
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam est ipsam repellat in tempora laboriosam odio ab cum quo veritatis autem molestiae modi, illo labore dolor explicabo, eius atque quaerat!
+				</div>
+			</div>
+		</div>
+	
+		<div class="Box d-flex" id="Box2">
+			<div class="d-flex flex-column item w-100 rounded-4" id="AnbarKasriAndEzafehDivContaienr">
+				<span class="DragIcon">
+					<i class="material-icons dp48">dialpad</i>
+				</span>
+				<div id="AnbarKasriAndEzafehDiv" class="bg-fff mr-0 col m12">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem maxime nisi doloremque obcaecati animi impedit inventore temporibus. Amet dolorum delectus enim commodi voluptatum quasi eum totam. Animi earum saepe ex.
+				</div>
+			</div>
+		</div>
+	
+		<div class="Box d-flex" id="Box3">
+			<div class="d-flex flex-column item w-100 rounded-4" id="AccountingDivContainer">
+				<span class="DragIcon">
+					<i class="material-icons dp48">dialpad</i>
+				</span>
+				<div id="AccountingDiv" class="bg-fff mr-0 col m12">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat maiores necessitatibus distinctio? Repudiandae quibusdam, tempore quod consectetur dolores eum, alias non quasi, voluptates modi blanditiis minima expedita possimus assumenda deleniti.
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+		  
+
+	<script
+	src="https://code.jquery.com/jquery-3.6.4.min.js"
+	integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+	crossorigin="anonymous"></script>
+	<script src="Sortable.min.js"></script>	
+	<script src="sctipt.js"></script>
+</body>
+</html>
